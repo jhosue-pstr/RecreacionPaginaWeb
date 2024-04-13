@@ -1,0 +1,238 @@
+body {
+    background: skyblue;
+}
+
+.encabezado {
+    background: rgb(32, 32, 120);
+    width: auto;
+    height: 50;
+}
+p {
+    display: inline-block;
+}
+.encabezadoIzquierda{
+    width: auto;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    margin: 15px 60px;
+}
+#correo{
+    margin-right: 10px;
+}
+#direccion{
+    margin-left: 10px;
+}
+.encabezadoDerecha{
+    width: auto;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 1050px;
+}
+#login{
+    margin-right: 10px;
+}
+#calculadora{
+    margin-left: 10px;
+}
+/*iconos encabezado */
+
+.gg-mail,
+.gg-mail::after {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+.gg-mail {
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+.gg-drop {
+    margin-left: 10px;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    transform: rotate(225deg) scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border-radius: 0 100% 100% 100%;
+    box-shadow: inset 0 0 0 2px
+}
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 100px
+}
+.gg-profile {
+        margin-right: 10px;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    position: relative
+}
+.gg-profile::after,
+.gg-profile::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 8px;
+    height: 8px
+}
+.gg-profile::after {
+    border-radius: 200px;
+    top: 11px;
+    left: 0px;
+    width: 18px;
+    height: 18px
+}
+.gg-calculator {
+    margin-left: 10px;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 2px
+}
+.gg-calculator::after,
+.gg-calculator::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    top: 2px;
+    left: 2px
+}
+.gg-calculator::after {
+    width: 2px;
+    box-shadow:
+        4px 0 0,
+        8px 0 0,
+        0 4px 0,
+        4px 4px 0,
+        8px 4px 0,
+        0 8px 0,
+        4px 8px 0,
+        8px 8px 0,
+        8px 6px 0;
+    top: 6px
+}
+
+/* hedaer inicial final*/
+
+nav {
+    background: white;
+    width: auto;
+    height: 100;
+    box-shadow: 0px 0px 10px 0px #333;
+}
+.logo{
+    display: inline-block;  
+    transform: scale(0.6,0.6);
+}
+
+select {
+    color: #333; 
+    font-family: Comic Sans; 
+    font-size: 20px; 
+    padding: 10px; 
+}
+#Home{
+    position: absolute;
+    top: 80;
+    font-family: Comic Sans; 
+}
+#Pages{
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    font-family: Comic Sans; 
+}
+#shortcodes{
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    font-family: Comic Sans; 
+}
+#FAQ{
+    color: #333; 
+    font-family: Comic Sans; 
+    font-size: 20px; 
+    padding: 10px; 
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 730px;
+}
+#LOCATION{
+    color: #333; 
+    font-family: Comic Sans; 
+    font-size: 20px; 
+    padding: 10px; 
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 790px;
+}
+#CONTACT{
+    color: #333; 
+    font-family: Comic Sans; 
+    font-size: 20px; 
+    padding: 10px; 
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 910px;
+}
+#numeroTelefono{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Comic Sans; 
+}
+#iconoTelefono{
+    position: absolute;
+    top: 68px;
+    right: 280px;
+}
+#iconoTelefono:hover{
+    transform: scale(1.2,1.2);
+    filter: invert(100%);
+}
+/* navegador final*/
