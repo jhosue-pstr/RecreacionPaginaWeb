@@ -3,7 +3,7 @@ body {
 }
 
 .encabezado {
-    background: rgb(32, 32, 120);
+    background: rgb(40, 40, 147);
     width: auto;
     height: 50;
 }
@@ -167,6 +167,7 @@ select {
     font-family: Comic Sans; 
     font-size: 20px; 
     padding: 10px; 
+    border-color: white;
 }
 #Home{
     position: absolute;
@@ -236,3 +237,103 @@ select {
     filter: invert(100%);
 }
 /* navegador final*/
+main {
+    background-image: linear-gradient(to bottom, #bbe2f1, #ffffff);  
+    background-position: center; 
+    width: auto;
+    height: 1000px;
+}
+#textoCentro{
+    font-family: 'Times New Roman', Times, serif;    
+    color: rgb(40, 40, 147);
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute; 
+    top: 500px;
+    left: 400px;   
+}
+#imagenFamilia{
+    position: absolute;
+    left: 990px;
+    top: 300px;
+    animation: cambiarRadio 4s linear infinite;
+    box-shadow: 10px 10px  lightblue; 
+}
+@keyframes cambiarRadio {
+    0% {
+        border-radius: 50% 100%; 
+    }
+    50% {
+        border-radius: 100% 70%; 
+    }
+    75% {
+        border-radius: 30% 50%; 
+    }
+    100% {
+        border-radius: 50% 80%; 
+    }
+}
+#locador{
+    position: absolute; 
+    top: 380px;
+    left: 430px; 
+    animation: SubirBajar 2s linear infinite;
+}
+@keyframes SubirBajar{
+    0% {
+        position: absolute;
+        top: 380px;
+        left: 430px;
+    } 50%{
+        position: absolute;
+        top: 390px;
+        left: 430px;
+    } 100%{
+        position: absolute;
+        top: 380px;
+        left: 430px;
+    }
+}
+#textoCentroAbao{
+    position: absolute; 
+    top: 600px;
+    left: 400px; 
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 18px;
+}
+#LOCATIONCENTRO{
+    position: absolute;
+    top: 640px;
+    left: 360px; 
+    font-size: 15px; 
+    padding: 20px 10px; 
+}
+#iconoLocation{
+    position: absolute;
+    top: 650px;
+    left: 520px; 
+}
+#categories{
+    position: absolute;
+    top: 640px;
+    left: 590px; 
+    font-size: 20px; 
+    padding: 17px 10px; 
+}
+#ContracTypes{
+    position: absolute;
+    top: 640px;
+    left: 770px; 
+    font-size: 25px;
+    padding: 15px 30px; 
+}
+#submit{
+    position: absolute;
+    top: 640px;
+    left: 1010px; 
+    font-size: 25px;
+    padding: 15px 30px; 
+    background-color: rgb(40, 40, 147);
+    border-color: rgb(40, 40, 147);
+    color: white;
+}
