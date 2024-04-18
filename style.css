@@ -3,7 +3,7 @@ body {
 }
 
 .encabezado {
-    background: rgb(40, 40, 147);
+    background: rgb(29,47,110);;
     width: auto;
     height: 50;
 }
@@ -241,11 +241,11 @@ main {
     background-image: linear-gradient(to bottom, #bbe2f1, #ffffff);  
     background-position: center; 
     width: auto;
-    height: 1000px;
+    height: 2000px;
 }
 #textoCentro{
     font-family: 'Times New Roman', Times, serif;    
-    color: rgb(40, 40, 147);
+    color: rgb(29,47,110);;
     font-size: 45px;
     font-weight: bold;
     position: absolute; 
@@ -255,7 +255,7 @@ main {
 #imagenFamilia{
     position: absolute;
     left: 990px;
-    top: 300px;
+    top: 250px;
     animation: cambiarRadio 4s linear infinite;
     box-shadow: 10px 10px  lightblue; 
 }
@@ -263,6 +263,7 @@ main {
     0% {
         border-radius: 50% 100%; 
     }
+
     50% {
         border-radius: 100% 70%; 
     }
@@ -333,7 +334,259 @@ main {
     left: 1010px; 
     font-size: 25px;
     padding: 15px 30px; 
-    background-color: rgb(40, 40, 147);
-    border-color: rgb(40, 40, 147);
+    background-color: rgb(29,47,110);
+    border-color: rgb(29,47,110);
     color: white;
+}
+
+/* inicioi de las imagenes con texcto*/
+#Apartment{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 900px;
+    left: 360px;
+}
+#TownHouse{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1000px;
+    left: 820px; 
+}
+#FarmHouse{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1000px;
+    left: 360px; 
+}
+#IndividualVilla{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 900px;
+    left: 820px; 
+}
+#OfficeSpace{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1100px;
+    left: 360px; 
+}
+#ModernHome{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifd;
+    font-size: 30px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1100px;
+    left: 820px; 
+}
+
+
+#imgCasa1{
+    position: absolute;
+    top: 900px;
+    left: 250px; 
+}
+
+#imgCasa2{
+    position: absolute;
+    top: 1000px;
+    left: 700px; 
+}
+#imgCasa3{
+    position: absolute;
+    top: 1000px;
+    left: 250px; 
+}
+#imgCasa4{
+    position: absolute;
+    top: 900px;
+    left: 700px; 
+}
+#imgCasa5{
+    position: absolute;
+    top: 1100px;
+    left: 250px; 
+}
+#imgCasa6{
+    position: absolute;
+    top: 1100px;
+    left: 700px; 
+}
+
+
+#Apartment1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 950px;
+    left: 360px; 
+}
+#TownHouse1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1050px;
+    left: 820px; 
+}
+#FarmHouse1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1050px;
+    left: 360px; 
+}
+#IndividualVilla1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 950px;
+    left: 820px; 
+}
+#OfficeSpace1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1150px;
+    left: 360px; 
+}
+#ModernHome1{
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(29,47,110); ;
+    position: absolute;
+    top: 1150px;
+    left: 820px;
+}
+
+.textoAnimadoArriba {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    color: rgb(29,47,110);
+    position: absolute;
+    top: 880px;
+    left: 1300px;
+}
+
+.textoAnimadoAbajo {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    color: rgb(29,47,110);
+    position: absolute;
+    top: 1050px;
+    left: 1300px;
+}
+ .LEGAL {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.PROPERTY {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: skyblue;
+}
+.EXPERT {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.AGENTS {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: skyblue;
+}
+
+
+.textoAnimado {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    color: rgb(29, 47, 110);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .IMGCASABLANCA{
+    position: absolute;
+    top: 1300px;
+    left: 300;
+  }
+.borde{
+    border-style: solid;
+    border-color:rgb(29,47,110);
+    border-width: 1px;
+    font-family: 'Comic Sans MS', cursive;
+    position: absolute;
+    top: 1300px;
+    left: 1100px;
+    width: 400px;
+    height: 648px;
+}
+#titulo{
+    color: rgb(29,47,110);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px 30px 20px 30px;
+}
+#precio{
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 30px 20px 30px;
+}
+#DescripcionDireccion{
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 30px;
+}
+#DescripcionDispriccion{
+    font-weight: bold;
+    margin: 10px 30px 0px 30px;
+}
+#Descripcion1{
+    margin: 10px 30px 0px 30px;
+}
+#descripcion2{
+    margin: 40px 30px 0px 30px;
+}
+#view{
+    border-color: rgb(29, 47, 110);
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+    padding: 10px 30px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+#viewDetails{
+    text-decoration: none;
+    color: black;
 }
